@@ -1,6 +1,9 @@
-[gd_scene load_steps=2 format=3 uid="uid://cnuw7vdp2a35u"]
+[gd_scene load_steps=3 format=3 uid="uid://cnuw7vdp2a35u"]
 
 [ext_resource type="Script" path="res://scripts/main.gd" id="1_ntyuu"]
+[ext_resource type="PackedScene" uid="uid://dvqeyp7tf33me" path="res://scenes/boid_particles.tscn" id="2_s02wc"]
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_ntyuu")
+
+[node name="BoidParticles" parent="." instance=ExtResource("2_s02wc")]
