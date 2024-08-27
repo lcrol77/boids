@@ -5,5 +5,10 @@
 
 [node name="Main" type="Node2D"]
 script = ExtResource("1_ntyuu")
+friend_radius = 30.0
+avoid_radius = 15.0
+min_vel = 25.0
+max_vel = 100.0
+separation_factor = 2.0
 
 [node name="BoidParticles" parent="." instance=ExtResource("2_s02wc")]
