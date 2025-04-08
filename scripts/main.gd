@@ -3,7 +3,7 @@ extends Node2D
 var boid_data : Image
 var boid_data_texture : ImageTexture
 
-var NUM_BOIDS = 22000
+var NUM_BOIDS = 5000
 var IMAGE_SIZE = int(sqrt(NUM_BOIDS) + 1)
 
 var boid_pos = []
